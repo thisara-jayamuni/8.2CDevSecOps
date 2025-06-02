@@ -25,7 +25,7 @@ pipeline {
                         subject: "Jenkins: Run Tests stage completed - ${currentBuild.currentResult}",
                         body: "The 'Run Tests' stage finished with status: ${currentBuild.currentResult}. Please check Jenkins for full details.",
                         recipientProviders: [[$class: 'DevelopersRecipientProvider']],
-                        to: 'thisara.jayamuni95@gmail.com',
+                        to: 'thisara.deepthika95@gmail.com',
                         attachLog: true
                     )
                 }
@@ -48,7 +48,7 @@ pipeline {
                         subject: "Jenkins: NPM Audit stage completed - ${currentBuild.currentResult}",
                         body: "The 'NPM Audit' stage finished with status: ${currentBuild.currentResult}. Please check Jenkins for full details.",
                         recipientProviders: [[$class: 'DevelopersRecipientProvider']],
-                        to: 'thisara.jayamuni95@gmail.com',
+                        to: 'thisara.deepthika95@gmail.com',
                         attachLog: true
                     )
                 }
